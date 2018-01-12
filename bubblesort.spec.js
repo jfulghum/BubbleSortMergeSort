@@ -1,5 +1,5 @@
-xdescribe ('Bubble Sort', function() {
-  beforeAll(function() {
+describe ('Bubble Sort', function() {
+  beforeEach(function() {
      spyOn(window, 'swap').and.callThrough();
  })
  it('swaps when number is bigger than comparison number', function(){

@@ -1,4 +1,4 @@
-xdescribe('Split Array function', function() {
+describe('Split Array function', function() {
   it('is able to split an array into two halves', function() {
     expect(split([2,3,4,5])).toEqual([[2,3],[4,5]])
   });
@@ -8,7 +8,7 @@ xdescribe('Split Array function', function() {
 });
 
 
-xdescribe('Merge function', function(){
+describe('Merge function', function(){
   it('is able to merge two sorted arrays into one sorted array', function(){
     expect(merge([1],[2])).toEqual([1,2])
   });
@@ -29,7 +29,6 @@ xdescribe('Merge function', function(){
 
 describe('mergeSort function', function(){
   it('this is a test', function(){
-    // expect(merge([1, 2, 7, 8],[3, 6])).toEqual([1, 2, 3, 6, 7, 8]);
     expect(mergeSort([6, 3, 7, 5])).toEqual([3, 5, 6, 7]);
   });
 
